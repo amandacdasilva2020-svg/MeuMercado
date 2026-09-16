@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MeuMercado</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+     <body>
+            <div class="barra-superior">
+                <span>🚚 Frete grátis em compras acima de R$ 99,00</span>
+                <span>📱 Baixe o app</span>
+                <span>🏪 Venda na plataforma</span>
+                <span>💬 Atendimento</span>
+                <span>📦 Meus pedidos</span>
+                <span>🔔 Notificações</span>
+            </div>
+
+     <header>
+            <!-- Aqui vai o cabeçalho do site -->
+         <div class="logo">
+            <img src="img/logo.webp" alt="Logo MeuMercado">
+
+         <div>
+
+         <span class="nome-logo">MeuMercado</span>
+            <small>Tudo que você precisa, em um só lugar</small>
+         </div> 
+
+         </div>
+
+         <!-- Aqui vai a barra de pesquisa -->  
+         <div class="pesquisa">
+            <input id="campo-pesquisa"  type="text" placeholder="Pesquisar produtos...">
+
+            <button id="botao-pesquisa">Buscar</button>
+            </div>
+
+            <!-- Aqui vai o botão de login-->
+         <div class="acoes">
+
+         <div class="login">
+           <button id="botao-conta">
+               👤 Olá! Minha conta
+            </button>
+         </div>
+
+         <!-- Aqui vai o botão do carrinho de compras -->
+         <div class="carrinho">
+            <button>
+               <span>🛒</span>
+               <span>Carrinho</span>
+            </button>
+         </div>
+
+          </div>
+
+     </header>
+     
+      <div id="resultado-pesquisa"></div>
+
+        <nav>
+            <a href="#">Ofertas do dia</a>
+            <a href="#">Mais vendidos</a>
+            <a href="#">Novidades</a>
+            <a href="#">Eletrônicos</a>
+            <a href="#">Casa e Decoração</a>
+            <a href="#">Moda</a>
+            <a href="#">Beleza</a>
+            <a href="#">Esportes</a>
+            <a href="#">Infantil</a>
+        </nav>
+     <main>
+      <!-- Aqui vai a seção de categorias -->
+       <div class="conteudo-principal">
+        <section class="categorias">
+
+            <div class="categorias-titulo" id="botao-categorias">
+               <span>☰</span>
+               <span>Todas as categorias</span>
+            </div>
+            
+            <ul id="lista-categorias">
+               <li><a href="#">📱 Celulares</a></li>
+               <li><a href="#">🖥️ Eletrônicos</a></li>
+               <li><a href="#">💻 Informática</a></li>
+               <li><a href="#">🏠 Casa e Decoração</a></li>
+               <li><a href="#">👗 Moda Feminina</a></li>
+               <li><a href="#">👕 Moda Masculina</a></li>
+               <li><a href="#">💄 Beleza e Perfumaria</a></li>
+               <li><a href="#">⚽ Esportes e Lazer</a></li>
+               <li><a href="#">🐾 Pet Shop</a></li>
+               <li><a href="#">🎮 Brinquedos e Infantil</a></li>
+               <li><a href="#">🚗 Automotivo</a></li>
+            </ul>
+     </section>
+     <!-- Aqui vai o banner principal -->
+    <section class="banner">
+
+      <div class="slide ativo">
+         
+         <div class="banner-imagem">
+            <img src="img/COMPRE-COM-IA.webp" alt="Descrição da segunda oferta">
+         </div>
+
+            <button>ver ofertas</button>
+
+         </div>
+      <div class="slide">
+         <div class="banner-imagem">
+            <img src="img/oferta-especial-a15.webp" alt="Imagem do produto Sansung Galaxy A15">
+         </div>
+          
+            <button>Comprar Agora</button>
+      </div> 
+
+    </section>
+
+<!-- Aqui vai a seção de assistente de compras -->
+         <section class="assistente">
+            <h2>Assistente de Compras</h2>
+            <p>Encontre o produto ideal para você</p>
+            <p>Olá! sou seu assistente de compras.</p>
+            <p>Como posso ajudar você hoje?</p>
+         
+<!-- Aqui vão as sugestões de pesquisa -->
+         <div class="sugestoes">
+            <button>Quero um celular para jogos até R$ 1.500,00</button>
+            <button>Preciso de um presente para minha mãe até R$ 200,00</button>
+            <button>Fones bluetooth com cancelamento de ruído</button>
+            <button>Comparar produtos</button>
+         </div>
+      
+         <form>
+            <input type="text" placeholder="O que você procura?">
+            <button>Encontrar produtos</button>
+         </form>
+
+         </section>
+
+       </div>
+
+     </main>    
+     
+    </body>
+    <script src="script.js"></script>
+</html>
